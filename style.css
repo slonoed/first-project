@@ -1,0 +1,91 @@
+
+.page {
+
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+
+
+.typography {
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+    margin: 0;
+}
+
+
+.header {
+    position: relative;
+     display: flex;
+     align-items: center;
+     height: 100%;
+     background-color: antiquewhite;
+     width: 100%;
+     padding: 160px 0 160px 90px;
+     height: 400px;
+    
+    }
+    
+    .my-flex-box {
+     margin-left: -0px;
+    // padding: 5px;
+     flex: 0 1 auto;
+     
+
+    }
+    
+    .x_img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    
+    
+    }
+    
+    .x_color {
+    position: absolute;
+    bottom: 30px;
+    left: 64px;
+    }
+
+
+    .header__main_logo_place_header {
+        position: absolute;
+        top: 30px;
+        left: 64px;
+        align-items: center;
+    }
+
+    
+    .header__title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 110px;
+        line-height: 110px;
+        letter-spacing: -0,04em;
+        width: 50%;
+    
+        position: absolute;
+        left: 64px;
+        align-items: center;
+        display: flex;
+    }
+
+    .square-pic {
+        width: 500px;
+        height: 500px;
+        background:  #2f80ed;  
+        position: absolute;
+        top: 60px;
+        right: 0;  
+    }
+
+
+
+
+.header__link {
+    color: #2f80ed;
+
+}
