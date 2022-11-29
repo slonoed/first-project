@@ -24,7 +24,6 @@
      width: 100%;
      padding: 160px 0 160px 90px;
      height: 400px;
-    
     }
     
     .my-flex-box {
@@ -97,6 +96,8 @@
     .two-columns {
         padding: 100px 50px 100px 100px;
         column-gap: 70px;
+        display: flex; 
+        justify-content: space-between; 
 
 
     }
@@ -104,14 +105,11 @@
         font-weight: normal;
         font-size: 18px;
         color: #2f80ed;
-
     }
    
    
-
     .main-text {
         padding-left: 10px;
-
     }
 
     .paragraph {
@@ -119,11 +117,8 @@
         font-size: 24px;
         line-height: 34px;
         padding: 0px 0 30px 0;
-
-        
-
-    
     }
+
 
     .span-accent {
         font-weight: bold;
@@ -131,62 +126,77 @@
         line-height: 34px;
     }
 
-    
+
+    .column_first {
+        vertical-align: top;
+        width: 175px;
+    }
 
 
-/* Page */
+/* цифры и факты */
 
-.page {
-    font-family: sans-serif;
-}
 
-.page__body {
-    margin: auto;
-    width: 800px;
-    background-color: mediumpurple;
-}
+    .section-tytle {  
+        font-weight: 600;
+        font-size: 70px;
+        letter-spacing: -0,04em;
+        width: 60%;
 
-/* News */
+        text-align: center;
+        width: 100%;
+    }
 
-.news--first {
-    background-color: lightgreen;
-}
 
-.news--second {
-    background-color: peachpuff;
-}
+    .section-subtitle {
+        font-size: 24px;
+        font-style: normal;
 
-/* News Title */
+        text-align: center;
+        width: 100%;
+    }
 
 
 
-/* News Lead */
+    .table {
+        max-width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 60px ;
+        
 
-.news__lead {
-    margin: 0;
-    padding: 15px;
-    padding-top: 0;
-    line-height: 1.4;
-}
+        
+    }
 
-/* Columns */
+    .item {
+        width: calc(25% - 30px);
+        margin: 15px;
 
-.columns {
-    border-collapse: collapse;
-}
 
-.columns__item {
-    vertical-align: top;
-    width: 175px;
+    }
 
-}
+    .cell {
+        font-weight: 600;
+        font-size: 24px;
+        letter-spacing: -0,04em;
+        line-height: 1,15;
+        
+        
+    }
 
-.columns__item--first {
-    padding-right: 10px;
-}
+    .heading {
+        font-weight: normal;
+        font-size: 18px;
+        letter-spacing: -0,04em;
+        line-height: 1,2px;
+        padding: 20px 0px;
+    }
 
-.columns__item--second {
-    padding-left: 10px;
-}
-
+    .text {
+        font-weight: normal;
+        font-size: 18px;
+        letter-spacing: -0,04em;
+        line-height: 1,2px;
+        padding: 20px 0px;
+    }
 
