@@ -34,7 +34,7 @@
 
     }
     
-    .x_img {
+    .main-illustration {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -43,10 +43,16 @@
     
     }
     
-    .x_color {
+    .subtitle {
     position: absolute;
     bottom: 30px;
     left: 64px;
+
+
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+
     }
 
 
@@ -58,10 +64,10 @@
     }
 
     
-    .header__title {
+    .title {
         font-style: normal;
-        font-weight: 500;
-        font-size: 110px;
+        font-weight: 600;
+        font-size: 102px;
         line-height: 110px;
         letter-spacing: -0,04em;
         width: 50%;
@@ -81,9 +87,27 @@
         right: 0;  
     }
 
+    .link {
+        color: #2f80ed;
 
+    }
 
-.header__link {
-    color: #2f80ed;
+    .two-columns {
 
-}
+    }
+
+    .brief {
+
+    }
+
+    .main-text {
+
+    }
+
+    .paragraph {
+
+    }
+
+    .two-columns {
+        
+    }
