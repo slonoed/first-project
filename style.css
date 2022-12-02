@@ -1,0 +1,452 @@
+
+
+.page {
+    min-width:1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+
+
+.typography {
+    font-family: "inter", sans-serif;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+    margin: 0;
+}
+
+/* header */
+
+    .header {
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        background-color: #f2f2f2;
+        padding: 160px 0 160px 90px;
+        height: 400px;
+    }
+    
+    .logo_place_header {
+        position: absolute;
+        top: 30px;
+        left: 64px;
+        align-items: center;
+    }
+
+    .header__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 102px;
+        line-height: 96px;
+        letter-spacing: -0,04em;
+        width: 50%;    
+        position: absolute;
+        left: 64px;
+        align-items: center;
+        display: flex;
+    }
+
+    .header__subtitle {
+        position: absolute;
+        bottom: 30px;
+        left: 64px;
+        line-height: 25px;
+        font-size: 18px;
+        font-weight: normal;   
+        }
+
+       
+     .header__main-illustration {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+        }
+
+
+    .header__square-pic {
+        width: 500px;
+        height: 500px;
+        background:  #2f80ed;  
+        position: absolute;
+        top: 60px;
+        right: 0; 
+        }
+   
+    .header__link {
+        color: #2f80ed;
+        text-decoration: none;
+        }
+
+/* description */
+
+
+
+.two-columns {
+    display: flex;
+    justify-content: space-between;   
+    padding: 100px 100px 100px 100px;
+    gap: 106px 140px
+}
+
+
+.two-columns__brief {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1,2px;
+    color: #2f80ed;
+    width: 175px;
+}
+
+
+.two-columns__main-text {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.two-columns__paragraph {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.two-columns__span-accent {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+
+/* digits */
+
+
+.section-tytle {  
+    font-weight: 600;
+    font-size: 70px;
+    letter-spacing: -0,04em;
+    width: 60%;
+
+    text-align: center;
+    width: 100%;
+    
+}
+
+
+.section-subtitle {
+    font-size: 24px;
+    font-style: normal;
+
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: auto;
+    justify-content: space-between;
+    width: 1100px
+   
+    
+
+   
+}
+
+
+
+.table__cell {
+    width: 250px;
+    margin-bottom: 60px;
+  
+}
+
+
+.table__heading {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: -0,04em;
+    line-height: 1,2px;
+    padding: 20px 0px;
+}
+
+
+
+.table__text {
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: -0,04em;
+    line-height: 1,2px;
+    padding: 20px 0px;
+}
+
+
+
+
+
+.item {
+    width: calc(25% - 30px);
+    margin: 15px;
+    background-color: red;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    
+   
+
+
+    .content {
+        min-width:1100px;
+        max-width: 1600px;
+    }
+    
+
+
+  
+
+    
+
+
+
+
+   
+
+   
+
+
+    .brief {
+        font-weight: normal;
+        font-size: 18px;
+        color: #2f80ed;
+    }
+   
+   
+    .main-text {
+        padding-left: 10px;
+    }
+
+    .paragraph {
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 34px;
+        padding: 0px 0 30px 0;
+    }
+
+
+    .span-accent {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+
+    .column_first {
+        vertical-align: top;
+        width: 175px;
+    }
+
+
+
+
+/* метод фейнмана */
+
+
+.feinman {
+
+
+    background-color: antiquewhite;
+    width: 100%;
+    height: 800px;
+    
+
+
+
+      background-image: url(/images/feynman.png);
+      background-repeat: no-repeat;
+      background-position: 1% 100%;
+      background-size: 50%;
+   
+
+}
+
+.feinman__title {
+    font-weight: 600;
+    line-height: 125px;
+    font-size: 120px;
+    text-align: center;
+    width: 100%;  
+    padding-top: 100px ;
+}
+
+
+.feinman_illustration {
+    min-height: 100%;
+    min-width: 640px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;   
+}
+
+
+.feinman__subtitle {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 70px ;
+}
+
+
+
+.feinman__link {
+    font-size: 36px;
+    position: absolute;
+    right: 48px;
+    align-items: center;
+    display: flex;
+    padding-bottom: 70px;
+    transform: translate(0, -38%);
+    color: rgb(47, 128, 237);
+    text-decoration: none;
+}
+
+/* метод Кауфмана */
+
+.table__2 {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 0 90px 0;
+    
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 0.5fr 0.5fr; 
+    gap: 80px 22px; 
+    grid-template-areas: 
+      ". . . . ."
+      ". . . . .";     
+}
+
+
+
+.item__2 {
+    width: 200px;
+}
+
+.kaufman {
+    background-color:  #1f1f1f;
+
+    background-image: url(/images/kaufman-triangle.svg);
+    background-repeat: no-repeat;
+    background-position: 125% 10%;
+    background-size: 60%;
+ 
+}
+
+
+.table_theme_dark {
+color: aliceblue;
+}
+
+
+.title__principle {
+    font-weight: 600;
+    font-size: 70px;
+    letter-spacing: -0,04em;
+    width: 60%;
+    text-align: center;
+    width: 100%;
+}
+
+.kaufman_title {
+    font-weight: 600;
+    font-size: 70px;
+    letter-spacing: -0,04em;
+    width: 60%;
+    text-align: center;
+    width: 100%;  
+    padding-top: 60px;
+}
+  
+.kaufman__subtiltle {
+    font-size: 24px;
+    font-style: normal;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+
+}
+
+
+/* footer */
+
+.columns {
+    background-color:  #1f1f1f;
+    color: rgb(255, 255, 255);
+
+    max-height: 350px;
+    max-width: 1600px;
+
+
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-template-columns: 6fr 2fr 2fr; 
+    grid-template-rows: 1fr; 
+    gap: 53px 140px; 
+    grid-template-areas: 
+      ". . ."; 
+
+    padding: 60px 60px 40px 60px;
+}
+
+
+.author {
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: -0,04em;
+    padding: 300px 0px 0px;
+
+  }
+
+.column-heading {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: -0,04em;
+    line-height: 30px;
+    padding: 20px 0px;
+  }
+
+.column-links {
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: -0,04em;
+    line-height: 30px;
+    width: auto;
+    height: auto;
+  }
+
